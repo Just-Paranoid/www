@@ -1,0 +1,42 @@
+baseURL: "https://vpn.just-paranoid.net/"
+languageCode: "en-gb"
+title: "VPN by Just Paranoid"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  blog: "/blog/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Register
+      url: "register/"
+      weight: 2
+    # - name: About
+    #   url: "about/"
+    #   weight: 2
+    # - name: Categories
+    #   url: "categories/"
+    #   weight: 3
+    # - name: Tags
+    #   url: "tags/"
+    #   weight: 4
+    - name: Subscribe
+      url: "index.xml"
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "est. 2023 | [Pete Maynard](https://petermaynard.co.uk)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
