@@ -8,9 +8,12 @@ title: Status of the Network.
 
 # Traffic
 
-[5min](/five.png)
-[hourly](/hourly.png)
-[daily](/daily.png)
-[monthly](/monthly.png)
+![5min](/five.png)
+
+![hourly](/hourly.png)
+
+![daily](/daily.png)
+
+![monthly](/monthly.png)
 
 
