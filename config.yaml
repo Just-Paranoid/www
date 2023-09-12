@@ -18,6 +18,9 @@ menu:
     - name: Register
       url: "register/"
       weight: 2
+    - name: Status
+      url: "status/"
+      weight: 3
     # - name: About
     #   url: "about/"
     #   weight: 2
@@ -27,7 +30,7 @@ menu:
     # - name: Tags
     #   url: "tags/"
     #   weight: 4
-    - name: Subscribe
+    - name: RSS
       url: "index.xml"
 
 params:
