@@ -2,7 +2,7 @@
 title: Home
 ---
 
-<img src="/images/openbsd.svg" style="max-width:15%;min-width:40px;float:right;" alt="openbsd logo" />
+<img src="/images/logo.svg" style="max-width:30%;min-width:80px;float:right;" alt="logo" />
 
 # VPN by Just Paranoid
 ## _Plain and Simple Wireguard_

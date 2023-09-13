@@ -1,0 +1,35 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" width="370" height="113">
+  <line x1="5" y1="24" x2="365" y2="24" style="stroke:rgb(220,20,60);stroke-width:10;stroke-linecap:round;" />
+  <line x1="25" y1="44" x2="345" y2="44" style="stroke:rgb(220,20,60);stroke-width:10;stroke-linecap:round;" />
+  <line x1="45" y1="64" x2="315" y2="64" style="stroke:rgb(220,20,60);stroke-width:10;stroke-linecap:round;" />
+  <line x1="65" y1="84" x2="295" y2="84" style="stroke:rgb(220,20,60);stroke-width:10;stroke-linecap:round;" />
+
+  <rect x="95.46154" y="5.1405153" width="168.82314" height="102.71896" style="fill:white;stroke:rgb(220,20,60);stroke-width:10" />
+
+  <style type="text/css">
+    .arrows{
+      fill:none;
+      stroke:#002147;
+      stroke-width:2;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-miterlimit:10;
+    }
+  </style> 
+
+<!-- <polyline class="arrows" points="8,14 24,14 20,11 "></polyline> 
+<polyline class="arrows" points="24,17 8,17 12,20 "></polyline>  -->
+
+
+  <polyline
+     class="arrows"
+     points="8,14 24,14 20,11 "
+     id="polyline4"
+     transform="matrix(0,-5.0232026,4.9657054,0,100.0019,136.74085)" />
+  <polyline
+     class="arrows"
+     points="24,17 8,17 12,20 "
+     id="polyline5"
+     transform="matrix(0,-5.0232026,4.9657054,0,105.67804,136.74085)" />
+
+</svg>
