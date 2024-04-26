@@ -35,7 +35,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "est. 2023 | [Pete Maynard](https://petermaynard.co.uk)"
+  footer: "est. 2024 | [Pete Maynard](https://petermaynard.co.uk)"
 
 markup:
   highlight:
