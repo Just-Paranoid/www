@@ -6,7 +6,17 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
     {{ partial "head_custom.html" . }}
+
+    {{ with resources.Get "js/main.js" }}
+        {{ with . | js.Build }}
+          <script src="{{ .RelPermalink }}"></script>
+        {{ end }}
+    {{ end }}
+
+
   </head>
 
   <body>
