@@ -5,7 +5,9 @@ const api = axios.create({
   timeout: 1000,
 });
 
-switch (window.location.pathname.split( '/' )[1]) {
+/*TODO: Load JS on specific page */
+let path = window.location.pathname.split( '/' )
+switch (path[path.length-2]) {
 case 'register':
   api.post('/request', {
       Email: 'pete@port22.co.uk'
