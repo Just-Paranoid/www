@@ -6,8 +6,25 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    <script src="https://js.sentry-cdn.com/3e97b04bad500a426d9040d5b6d32dfb.min.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     
+    {{ if eq hugo.Environment "development" }}
+    <script>
+      Sentry.init({
+        environment: "development",
+      });
+    </script>
+    {{ end }}
+
+    {{ if eq hugo.Environment "production" }}
+    <script>
+      Sentry.init({
+        environment: "production",
+      });
+    </script>
+    {{ end }}
+
     {{ partial "head_custom.html" . }}
 
     {{ with resources.Get "js/main.js" }}
