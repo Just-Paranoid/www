@@ -1,5 +1,7 @@
 "use strict"; 
 
+const axios = require('axios/dist/browser/axios.cjs');
+
 const api = axios.create({
   baseURL: 'http://localhost:8088',
   timeout: 1000,
